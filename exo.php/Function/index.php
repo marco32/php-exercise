@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Function</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+
+</head>
+<body class="container">
+	<h3>Function</h3>
+	<div>
+		<h4>Ex1</h4>
+		<div>
+			<?php
+			include('exercice1.php');
+			?>
+		</div>
+	</div>
+	<div>
+		<h4>Ex2</h4>
+		<div>
+			<?php
+			include('exercice2.php');
+			?>
+		</div>
+	</div>
+	<div>
+		<h4>Ex3</h4>
+		<div>
+			<?php
+			include('exercice3.php');
+			?>
+		</div>
+	</div>
+	<div>
+		<h4>Ex4</h4>
+		<div>
+			<?php
+			include('exercice4.php');
+			?>
+		</div>
+	</div>
+	<div>
+		<h4>Ex5</h4>
+		<div>
+			<?php
+			include('exercice5.php');
+			?>
+		</div>
+	</div>
+	<div>
+		<h4>Ex6</h4>
+		<div>
+			<?php
+			include('exercice6.php');
+			?>
+		</div>
+	</div>
+	<div>
+		<h4>Ex7</h4>
+		<div>
+			<?php
+			include('exercice7.php');
+			?>
+		</div>
+	</div>
+	<div>
+		<h4>Ex8</h4>
+		<div>
+			<?php
+			include('exercice8.php');
+			?>
+		</div>
+	</div>
+</body>
+</html>
