@@ -7,9 +7,11 @@ setcookie('Cookie', $newcookie);
 <head>
 	<meta charset="UTF-8">
 	<title>Ex5</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+
 </head>
-<body>
-<form action="#" method="post">
+<body class="container">
+<form action="" method="post">
 	<fieldset>Modification du Cookie
 	<div>
 		<label for="mdf">Veuillez definir votre nouveau cookie</label>
@@ -19,7 +21,7 @@ setcookie('Cookie', $newcookie);
 	</fieldset>
 </form>
 <div>
-<a href="exercice5.php">Verifiez vos modification</a>
+<a href="exercice4.php">Verifiez vos modification</a>
 </div>
 <div>
 <a href="exercic3.php">Ex3</a>

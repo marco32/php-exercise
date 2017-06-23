@@ -8,14 +8,19 @@ setcookie('Cookie', $login." merci pour votre mot de passe ".$mdp);
 <head>
 	<meta charset="UTF-8">
 	<title>Cookie login</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+
 </head>
-<body>
+<body class="container">
 	<form action="#" method="post">
-		<label for="login" >Login</label>
-		<input type="text" id="login" name="login" placeholder="Identifiant">
-		<label for="psw">Password</label>
-		<input type="password" id="psw" name="mdp" placeholder="Password">
-		<input type="submit" value="Valider">
+	<fieldset>
+		
+				<label for="login" >Login</label>
+				<input type="text" id="login" name="login" placeholder="Identifiant">
+				<label for="psw">Password</label>
+				<input type="password" id="psw" name="mdp" placeholder="Password">
+				<input type="submit" value="Valider">
+	</fieldset>
 	</form>
 	<div>
 		
